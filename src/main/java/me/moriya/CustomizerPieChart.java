@@ -7,6 +7,10 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.labels.StandardPieSectionLabelGenerator;
 import org.jfree.chart.plot.PiePlot3D;
 
+/**
+ * Classe criada para utilizar o parâmetro Customizer Class do iReport do componente Pie3D
+ *
+ */
 public class CustomizerPieChart implements JRChartCustomizer {
 
 	public void customize(JFreeChart chart, JRChart jasperChart) {
